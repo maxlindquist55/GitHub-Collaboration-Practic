@@ -1,0 +1,29 @@
+# Clone the repo
+% cd project
+% git clone https://github.com/maxlindquist55/GitHub-Collaboration-Practic.git
+
+# Create a new branch
+% cd GitHub-Collaboration-Practic
+% git checkout -b rreed/program-research
+% git branch
+
+# Merge the main branch
+% git checkout main
+% git pull
+% git checkout rreed/program-research
+% git merge main
+
+# Add my program and research interests
+% open "Project 1.txt"
+
+# Add my code
+% touch Reiley_code.txt
+% open Reiley_code.txt
+
+# Commit code
+% git status
+% git add .
+% git commit -m "Added Reiley's program and research interests"
+% git status
+% git push origin rreed/program-research --set-upstream
+

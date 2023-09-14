@@ -1,0 +1,29 @@
+# Clone the repo
+% cd project
+% git clone https://github.com/maxlindquist55/GitHub-Collaboration-Practic.git
+
+# Create a new branch
+% cd GitHub-Collaboration-Practic
+% git checkout -b takun_branch
+% git branch
+
+# Merge the main branch
+% git checkout main
+% git pull
+% git checkout takun_branch
+% git merge main
+
+# Add my program and research interests
+% vim "Project 1.txt"
+% git status
+% git add .
+% git commit -m "Added Takun's program and research interests"
+% git status
+% git push -u origin takun_branch
+
+# Add my code
+% touch Takun_code.txt
+% vim Takun_code.txt
+% git add .
+% git commit -m "Added Takun's code"
+% git push
