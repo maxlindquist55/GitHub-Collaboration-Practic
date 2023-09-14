@@ -1,0 +1,20 @@
+Code for group work (part 3)
+
+# Clone the repo
+cd Computational-Social-Science-Projects
+git clone https://github.com/maxlindquist55/GitHub-Collaboration-Practic.git
+cd GitHub-Collaboration_Practic
+git pull
+
+# Creating branch
+git checkout -b jb_branch
+
+# Editing document and pushing changes
+nano "Project 1.txt"
+git status
+git add "Project 1.txt"
+git commit -m "Jacqueline's edits to Project 1.txt"
+git status
+git push --set-upstream origin jb_branch
+
+
